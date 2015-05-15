@@ -6,16 +6,14 @@
  * oggetto.
  * Questa classe statica ha metodi statici che offrono i servizi richiesti. 
  */
-	class PrinterSpooler {
+	export class PrinterSpoolerStatic {
 
 		static print(msg)	{
 			console.log(msg);
 		}
 	}
 
-	//Prova
-	PrinterSpooler.print('Hello World');
-
+	
 /**
  * Singleton creato da un metodo statico.
  * Il singleton è implementato come una classe che ha un metodo statico 
@@ -25,7 +23,7 @@
  * singleton possano essere fornite in tempo di esecuzione. Le volte successive
  * sarà restituito un riferimento allo stesso oggetto.
  */
- 	class PrinterSpooler	{
+ 	export class PrinterSpoolerIstance	{
 
  		static getIstance()	{
  			if (typeof this.istance === 'undefined')
@@ -37,10 +35,3 @@
  			console.log(msg);
  		}
  	}
-
-	let theUnique = PrinterSpooler.getIstance();
-	theUnique.print("Ciao");
-	let mayBeOther = PrinterSpooler.getIstance();
-	mayBeOther.print("Mondo");
- 		
- 	console.log(Object.is(theUnique, mayBeOther));

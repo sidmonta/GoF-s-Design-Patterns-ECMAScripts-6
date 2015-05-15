@@ -1,6 +1,11 @@
-import * as Place from './Place';
+import Place from './Place';
 
-class Connector	{
+/**
+ * Classe che implementa un Concrete Product.
+ * label e html sono due proprietà della classe, mentre setPlaceConnected è un
+ * metodo.
+ */
+export class Connector	{
 	set label(l) {
 		this.l = l;
 	}

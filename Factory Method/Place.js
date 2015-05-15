@@ -1,6 +1,9 @@
-//import * as ElementHandler from './ElementHanfler';
-
-class Place {
+/**
+ * Classe che implementa un Concrete Product.
+ * label e html sono due proprietà della classe, mentre setPlaceConnected è un
+ * metodo.
+ */
+export class Place {
 
 	set label(l)	{
 		this.l = l;
@@ -13,7 +16,7 @@ class Place {
 	get html()	{
 		let element = document.createElement('div');
 		elem.setAttribute('class', 'place');
-		elem.textContent = l;
+		elem.textContent = this.l;
 
 		return elem;
 	}
