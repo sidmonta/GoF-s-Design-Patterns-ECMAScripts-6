@@ -11,4 +11,10 @@ Si pensi a un posto di vendita di sistemi Hi-Fi, dove si eseguono dimostrazioni 
 
 Se si accetta il fatto che questi prodotti offrono agli utenti una stessa interfaccia (cosa non tanto distante dalla realtà), un cliente potrebbe essere un grado di eseguire lo stesso processo di prova su prodotti di entrambe famiglie di prodotti. Ad esempio, potrebbe eseguire prima una registrazione nel recorder, per poi dopo ascoltarla nel player.
 
-Il problema consiste nella definizione di un modo di creare famiglie complete di prodotti, senza vincolare alla codifica del cliente che gli utilizza, il codice delle particolari famiglie. 
+Il problema consiste nella definizione di un modo di creare famiglie complete di prodotti, senza vincolare alla codifica del cliente che gli utilizza, il codice delle particolari famiglie.
+
+## Partecipanti
+* __Concrete Factory__: classi _TapeDevicesFactory_ e _CDDevicesFactory_.
+	-	Implementa l’Abstract Factory, fornendo operazioni che creano e restituiscono oggetti corrispondenti a prodotti specifici (__Concrete Product__)
+* __Concrete Product__: classi _Tape_, _TapeRecorder_, _TapePlayer_, _CD_, _CDRecorder_, _CDPlayer_
+	-	Definiscono i prodotti creati da ogni __Concrete Factory__

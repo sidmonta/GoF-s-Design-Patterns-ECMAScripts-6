@@ -1,0 +1,450 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"crea",
+				"createElement  (function)"
+			],
+			[
+				"getEle",
+				"getElementsByTagName  (function)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Factory Method/Connector.js",
+			"settings":
+			{
+				"buffer_size": 683,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Factory Method/main.js",
+			"settings":
+			{
+				"buffer_size": 681,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "tern",
+		"selected_items":
+		[
+			[
+				"tern",
+				"TernJS: Jump to definition"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript Next"
+			]
+		],
+		"width": 516.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Factory Method"
+	],
+	"file_history":
+	[
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/.gitignore",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Factory Method/ConnectorHandler.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Factory Method/PlaceHandler.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Factory Method/ElementHandler.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Factory Method/Connector.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Factory Method/Place.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Singleton/PrinterSpooler.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Singleton/main.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Singleton/README.md",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Abstract Factory/Interface.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Factory Method/main.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Factory Method/demo.js",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/README.md",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/EMAScript 6.md",
+		"/Users/lucamontanera/Documents/Progetti/Patterns ES6/Factory Method/Descrizione.md",
+		"/Applications/MAMP/htdocs/ordinatore/ordinamento/Ordinatore.php",
+		"/Applications/MAMP/htdocs/rinumeratore/rinumeratorePlugin.php",
+		"/Applications/MAMP/htdocs/ordinatore/ordinatorePlugin.php",
+		"/Applications/MAMP/htdocs/ordinatore/conf/ordinatore.conf",
+		"/private/var/folders/g1/5fth2mlx5jd3cz410kntwdq40000gn/T/fz3temp-1/scripts.891eaf2d.js",
+		"/private/var/folders/g1/5fth2mlx5jd3cz410kntwdq40000gn/T/fz3temp-1/OrdinatoreController.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console.log(",
+			"* as ",
+			"Connector",
+			"* as ",
+			"Connector",
+			"label",
+			"1",
+			"=",
+			")[",
+			"](",
+			"promemoria",
+			"name = Traccia,\n			type = 301,",
+			"type = ,",
+			"Delibera = {\n			name = Delibera,\n			type = 168,\n			priority = 2\n		},",
+			"},\n",
+			"Delibera = {\n			name = Delibera,\n			type = 168,\n			priority = 1\n		},",
+			"Delibera = {\n	type_id  = 168,\n	children = {}\n}",
+			"Verbale = {\n	type_id  = 164,\n	children = {}\n}",
+			"Verbale = {\n			name = Verbale,\n			type = 164,\n			priority = 1\n		},",
+			"		Verbale = {\n			name = Verbale,\n			type = 164,\n			priority = 2\n		},",
+			"aspi",
+			"collect",
+			"colleti",
+			"url"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Factory Method/Connector.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (light) (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 73.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Factory Method/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (light) (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "es6pattern.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,6 @@
+class Interface {
+
+	constructor()	{
+		
+	}
+}
