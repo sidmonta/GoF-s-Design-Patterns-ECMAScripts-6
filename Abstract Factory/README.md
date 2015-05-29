@@ -18,3 +18,6 @@ Il problema consiste nella definizione di un modo di creare famiglie complete di
 	-	Implementa l’Abstract Factory, fornendo operazioni che creano e restituiscono oggetti corrispondenti a prodotti specifici (__Concrete Product__)
 * __Concrete Product__: classi _Tape_, _TapeRecorder_, _TapePlayer_, _CD_, _CDRecorder_, _CDPlayer_
 	-	Definiscono i prodotti creati da ogni __Concrete Factory__
+* __Client__: classe _Client_.
+	-	Si rivolge alla __Concrete Factory__ di una famiglia di prodotti.
+	-	Utilizza i prodotti.
