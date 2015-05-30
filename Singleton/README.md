@@ -1,5 +1,5 @@
 # Abstract Factory
-##### (GoF pag. 117)
+##### (GoF pag. 127)
 
 ## Descrizione
 Specifica i tipi di oggetti da creare, utilizzando un’istanza prototipata, e crea nuove istanze tramite la copia di questo prototipo.
