@@ -1,5 +1,5 @@
-# Abstract Factory
-##### (GoF pag. 127)
+# Singleton
+##### (GoF pag. 117)
 
 ## Descrizione
 Specifica i tipi di oggetti da creare, utilizzando un’istanza prototipata, e crea nuove istanze tramite la copia di questo prototipo.
