@@ -10,3 +10,14 @@ Per la parte di ECMAScripts 6:
 -	L'introduzione di Luke Hoban [raggiungibile qui](https://github.com/lukehoban/es6features)
 -	Understanding ECMAScript 6 di Nicholas C. Zakas [reperibile qui](https://leanpub.com/understandinges6)
 -	Google :)
+
+
+## Pattern implementati finora
+*	Abstrac Factory
+*	Adapter
+*	Bridge
+*	Builder
+*	Composite
+*	Factory Method
+*	Prototype
+*	Singleton
