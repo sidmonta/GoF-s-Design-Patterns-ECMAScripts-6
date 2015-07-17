@@ -1,5 +1,5 @@
-# Singleton
-##### (GoF pag. 151)
+# Bridge
+#### (GoF pag. 151)
 
 ## Descrizione
 Separa un’astrazione dalla sua implementazione, in modo che entrambe possano variare indipendentemente
