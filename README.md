@@ -21,3 +21,5 @@ Per la parte di ECMAScripts 6:
 *	Factory Method
 *	Prototype
 *	Singleton
+* Facade
+* Flyweight
