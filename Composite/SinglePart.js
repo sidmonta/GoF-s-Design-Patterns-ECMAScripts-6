@@ -1,9 +1,7 @@
-export class SinglePart extends Component	{
-	constructor(aName)	{
-		super(aName);
-	}
+import { Component } from 'Component'
 
-	describe()	{
-		console.log("Component: " + this.name);
-	}
+export class SinglePart extends Component {
+  describe () {
+    console.log(`Component: ${this.name}`)
+  }
 }

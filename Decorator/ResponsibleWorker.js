@@ -1,19 +1,20 @@
-export class ResponsibleWorker extends Employee	{
+import { Employee } from 'Employee'
 
-	constructor(employee)	{
-		super();
-		this.responsible = employee;
-	}
+export class ResponsibleWorker extends Employee {
+  constructor (employee) {
+    super()
+    this.responsible = employee
+  }
 
-	get name() {
-		return this.responsible.name;
-	}
+  get name () {
+    return this.responsible.name
+  }
 
-	get office() {
-		return this.responsible.office;
-	}
+  get office () {
+    return this.responsible.office
+  }
 
-	whoIs()	{
-		this.responsible.whoIs();
-	}
+  whoIs () {
+    this.responsible.whoIs()
+  }
 }

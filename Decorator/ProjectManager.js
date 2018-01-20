@@ -1,13 +1,13 @@
-export class ProjectManager extends ResponsibleWorker	{
+import { ResponsibleWorker } from 'ResponsibleWorker'
 
-	constructor(empl, proj)	{
-		super(empl);
-		this.project = proj;
-	}
+export class ProjectManager extends ResponsibleWorker {
+  constructor (empl, proj) {
+    super(empl)
+    this.project = proj
+  }
 
-	whoIs()	{
-		super.whoIs();
-		console.log("I am the Manager of the Project: " + this.project);
-	}
-
+  whoIs () {
+    super.whoIs()
+    console.log(`I am the Manager of the Project: ${this.project}`)
+  }
 }

@@ -1,10 +1,9 @@
 export class CD {
+  writeOnDisk (sound = '') {
+    this.track = sound
+  }
 
-	writeOnDisk(sound)	{
-		this.track = sound;
-	}
-
-	readDisk()	{
-		return this.track;
-	}
+  readDisk () {
+    return this.track
+  }
 }

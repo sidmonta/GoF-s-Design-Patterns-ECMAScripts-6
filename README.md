@@ -1,6 +1,6 @@
 # GoF-s-Design-Patterns-ECMAScripts-6
 
-Mia implementazione di tutti i GoF’s Design Pattern con Javascript ECMAScripts 6
+Mia implementazione di tutti i GoF’s Design Pattern con Javascript ECMAScripts 6/7
 
 Tutta la documentazione si basa su:
 -	Dispense di Franco Guidi Polanco del Politecnico di Torino pubblicate nel Giugno 2002 [reperibili qui](http://eii.ucv.cl/pers/guidi/designpatterns.htm)

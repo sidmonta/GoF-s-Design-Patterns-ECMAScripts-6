@@ -1,67 +1,82 @@
-const ROWS = 3;
-const COLS = 4;
-var str;
+import { CompleteMatrix } from 'CompleteMatrix'
+import { SparseMatrix } from 'SparseMatrix'
 
-var matrixCV = new CompleteMatrix(ROWS, COLS, []);
-console.log("Complete Matrix with Array");
+const ROWS = 3
+const COLS = 4
+var str
 
-matrixCV.put(1,2,1);
-matrixCV.put(2,1,2);
-matrixCV.put(0,3,3);
-matrixCV.put(1,2,0);
-str = '';
-for (var i = 0; i < ROWS; i++)	{
- str += "\n";
-	for (var j = 0; j < COLS; j++)
-		str += matrixCV.get(i, j) + " ";
+let matrixCV = new CompleteMatrix(ROWS, COLS, [])
+console.log('Complete Matrix with Array')
+
+matrixCV.put(1, 2, 1)
+matrixCV.put(2, 1, 2)
+matrixCV.put(0, 3, 3)
+matrixCV.put(1, 2, 0)
+
+str = ''
+for (let i = 0; i < ROWS; i++) {
+  str += '\n'
+  for (let j = 0; j < COLS; j++) {
+    str += matrixCV.get(i, j) + '\t'
+  }
 }
 
-console.log(str);
+console.log(str)
+// ----------------------------------------------------
 
-var matrixCV = new SparseMatrix(ROWS, COLS, []);
-console.log("Sparse Matrix with Array");
-matrixCV.put(1,2,1);
-matrixCV.put(2,1,2);
-matrixCV.put(0,3,3);
-matrixCV.put(1,2,0);
+matrixCV = new SparseMatrix(ROWS, COLS, [])
+console.log('Sparse Matrix with Array')
 
-str = '';
-for (var i = 0; i < ROWS; i++)	{
-  str += "\n";
-	for (var j = 0; j < COLS; j++)
-		str += matrixCV.get(i, j) + " ";
+matrixCV.put(1, 2, 1)
+matrixCV.put(2, 1, 2)
+matrixCV.put(0, 3, 3)
+matrixCV.put(1, 2, 0)
+
+str = ''
+for (var i = 0; i < ROWS; i++) {
+  str += '\n'
+  for (var j = 0; j < COLS; j++) {
+    str += matrixCV.get(i, j) + ' '
+  }
 }
 
-console.log(str);
+console.log(str)
+// ----------------------------------------------------
 
-var matrixCV = new CompleteMatrix(ROWS, COLS, new Set());
-console.log("Complete Matrix with Set");
-matrixCV.put(1,2,1);
-matrixCV.put(2,1,2);
-matrixCV.put(0,3,3);
-matrixCV.put(1,2,0);
+matrixCV = new CompleteMatrix(ROWS, COLS, new Set())
+console.log('Complete Matrix with Set')
 
-str = '';
-for (var i = 0; i < ROWS; i++)	{
- str += "\n";
-	for (var j = 0; j < COLS; j++)
-		str += matrixCV.get(i, j) + " ";
+matrixCV.put(1, 2, 1)
+matrixCV.put(2, 1, 2)
+matrixCV.put(0, 3, 3)
+matrixCV.put(1, 2, 0)
+
+str = ''
+for (let i = 0; i < ROWS; i++) {
+  str += '\n'
+  for (let j = 0; j < COLS; j++) {
+    str += matrixCV.get(i, j) + ' '
+  }
 }
 
-console.log(str);
+console.log(str)
+// ----------------------------------------------------
 
-var matrixCV = new SparseMatrix(ROWS, COLS, new Set());
-console.log("Sparse Matrix with Set");
-matrixCV.put(1,2,1);
-matrixCV.put(2,1,2);
-matrixCV.put(0,3,3);
-matrixCV.put(1,2,0);
+matrixCV = new SparseMatrix(ROWS, COLS, new Set())
+console.log('Sparse Matrix with Set')
 
-str = '';
-for (var i = 0; i < ROWS; i++)	{
- str += "\n";
-	for (var j = 0; j < COLS; j++)
-		str += matrixCV.get(i, j) + " ";
+matrixCV.put(1, 2, 1)
+matrixCV.put(2, 1, 2)
+matrixCV.put(0, 3, 3)
+matrixCV.put(1, 2, 0)
+
+str = ''
+for (let i = 0; i < ROWS; i++) {
+  str += '\n'
+  for (let j = 0; j < COLS; j++) {
+    str += matrixCV.get(i, j) + ' '
+  }
 }
 
-console.log(str);
+console.log(str)
+// ----------------------------------------------------

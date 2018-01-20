@@ -1,17 +1,17 @@
-import {Tape} from 'Tape';
-import {TapeRecorder} from 'TapeRecorder';
-import {TapePlayer} from 'TapePlayer';
+import {Tape} from 'Tape'
+import {TapeRecorder} from 'TapeRecorder'
+import {TapePlayer} from 'TapePlayer'
 
-export class TapeDevicesFactory	{
-	createPlayer()	{
-		return new TapePlayer();
-	}
+export class TapeDevicesFactory {
+  createPlayer () {
+    return new TapePlayer()
+  }
 
-	createRecorder()	{
-		return new TaperRecorder();
-	}
+  createRecorder () {
+    return new TapeRecorder()
+  }
 
-	createMedia()	{
-		return new Tape();
-	}
+  createMedia () {
+    return new Tape()
+  }
 }

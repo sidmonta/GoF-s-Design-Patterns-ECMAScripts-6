@@ -1,19 +1,21 @@
-export class Component	{
+import { SinglePart } from 'SinglePart'
 
-	constructor(aName)	{
-		this.name = aName;
-	}
+export class Component {
+  constructor (aName) {
+    this.name = aName
+  }
 
-	describe()	{}
+  describe () {}
 
-	add(c)	{
-		if (this instanceof SinglePart )
-			throw "Metodo non supportato per un oggetto SinglePart";
+  add (c) {
+    if (this instanceof SinglePart) {
+      throw String('Metodo non supportato per un oggetto SinglePart')
+    }
+  }
 
-	}
-
-	remove(c)	{
-		if (this instanceof SinglePart )
-			throw "Metodo non supportato per un oggetto SinglePart";
-	}
+  remove (c) {
+    if (this instanceof SinglePart) {
+      throw String('Metodo non supportato per un oggetto SinglePart')
+    }
+  }
 }

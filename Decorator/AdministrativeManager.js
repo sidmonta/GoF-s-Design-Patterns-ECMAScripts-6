@@ -1,15 +1,12 @@
-export class AdministrativeManager extends ResponsibleWorker	{
+import { ResponsibleWorker } from 'ResponsibleWorker'
 
-	constructor(empl)	{
-		super(empl);
-	}
+export class AdministrativeManager extends ResponsibleWorker {
+  whoIs () {
+    this.sayIamBoss()
+    super.whoIs()
+  }
 
-	whoIs()	{
-		this.sayIamBoss();
-		super.whoIs();
-	}
-
-	sayIamBoss()	{
-		console.log("I am a boss");
-	}
+  sayIamBoss () {
+    console.log('I am a boss')
+  }
 }

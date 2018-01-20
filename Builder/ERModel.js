@@ -2,12 +2,12 @@ var ERModel = (function ()	{
 	var modelEntities = new Map();
 	var modelRelations = new Map();
 
-	this.addEntity = function(name)	{
+	this.addEntity = (name)	=> {
 		modelEntities.set(name, {'name': name});
 	};
 
 
-	this.addRelationship = function(fromEntity, toEntity, relation)	{
+	this.addRelationship = (fromEntity, toEntity, relation) =>	{
 		modelRelations.set(relation, {
 			'name': relation,
 			'entity1': modelEntities.get(fromEntity),
@@ -15,19 +15,19 @@ var ERModel = (function ()	{
 		});
 	};
 
-	this.addCardMin = function(entity, relation, value)	{
+	this.addCardMin = (entity, relation, value) =>	{
 		let rel = modelRelations.get(relation);
 		if (entity === rel.entity1.name)	rel.cardMin1 = value;
 		else rel.cardMin2 = value;
 	};
 
-	this.addCardMax = function(entity, relation, value)	{
+	this.addCardMax = (entity, relation, value) =>	{
 		let rel = modelRelations.get(relation);
 		if (entity === rel.entity1.name)	rel.cardMax1 = value;
 		else rel.cardMax2 = value;
 	};
 
-	this.showStructure = function ()	{
+	this.showStructure = () =>	{
 		for (let elem of modelRelations.values())
 			console.log(`[${elem.entity1.name}] --(${elem.cardMin1},${elem.cardMax1})-- <${elem.name}> --(${elem.cardMin2},${elem.cardMax2})-- [${elem.entity2.name}]`);
 
