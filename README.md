@@ -23,3 +23,6 @@ Per la parte di ECMAScripts 6:
 *	Singleton
 * Facade
 * Flyweight
+* Proxy
+* Chain of Responsibility
+* Command
