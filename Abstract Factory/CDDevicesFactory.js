@@ -1,6 +1,6 @@
-import {CD} from 'CD'
-import {CDRecorder} from 'CDRecorder'
-import {CDPlayer} from 'CDPlayer'
+import CD from 'CD'
+import CDRecorder from 'CDRecorder'
+import CDPlayer from 'CDPlayer'
 
 export class CDDevicesFactory {
   createPlayer () {

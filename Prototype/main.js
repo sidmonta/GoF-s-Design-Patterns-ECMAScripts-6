@@ -1,6 +1,6 @@
-import { SchedulerC } from 'SchedulerC'
-import { TimeImplementationC1 } from 'TimeImplementationC1'
-import { TimeImplementationC2 } from 'TimeImplementationC2'
+import SchedulerC from 'SchedulerC'
+import TimeImplementationC1 from 'TimeImplementationC1'
+import TimeImplementationC2 from 'TimeImplementationC2'
 
 console.log('Using TimeImplementationC1:')
 var t1 = new TimeImplementationC1()

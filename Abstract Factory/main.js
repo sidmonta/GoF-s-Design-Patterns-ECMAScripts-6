@@ -1,6 +1,6 @@
-import {Client} from 'Client'
-import {TapeDevicesFactory} from 'TapeDevicesFactory'
-import {CDDevicesFactory} from 'CDDevicesFactory'
+import Client from 'Client'
+import TapeDevicesFactory from 'TapeDevicesFactory'
+import CDDevicesFactory from 'CDDevicesFactory'
 
 var client = new Client()
 console.log('**Testing tape device')

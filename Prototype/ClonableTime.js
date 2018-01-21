@@ -1,4 +1,4 @@
-export class ClonableTime {
+export default class ClonableTime {
   setTime (hr, min, sec) {}
   getHours () {}
   getMinutes () {}

@@ -3,7 +3,7 @@
  * label e html sono due proprietà della classe, mentre setPlaceConnected è un
  * metodo.
  */
-export class Connector {
+export default class Connector {
   set label (l) {
     this.l = l
   }

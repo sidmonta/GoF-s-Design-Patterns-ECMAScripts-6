@@ -1,4 +1,4 @@
-import { Component } from 'Component'
+import Component from 'Component'
 
 export class CompoundPart extends Component {
   constructor (aName) {

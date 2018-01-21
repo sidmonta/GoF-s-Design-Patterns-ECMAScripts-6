@@ -1,6 +1,6 @@
-import { Employee } from 'Employee'
+import Employee from 'Employee'
 
-export class Engineer extends Employee {
+export default class Engineer extends Employee {
   constructor (nam, off) {
     super()
     this.nam = nam

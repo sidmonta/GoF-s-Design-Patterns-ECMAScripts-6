@@ -1,5 +1,5 @@
-import { EventSymbol } from 'EventSymbol'
-import { EventSymbolFactory } from 'EventSymbolFactory'
+import EventSymbol from 'EventSymbol'
+import EventSymbolFactory from 'EventSymbolFactory'
 
 console.log('Test creazione e comparazione di oggetti eventi non codivisi')
 let tStart = new Date()

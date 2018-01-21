@@ -1,4 +1,4 @@
-import { Matrix } from 'Matrix'
+import Matrix from 'Matrix'
 
 export class SparseMatrix extends Matrix {
   put (row, col, value) {

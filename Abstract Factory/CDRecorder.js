@@ -1,4 +1,4 @@
-import {CD} from 'CD'
+import CD from 'CD'
 
 export class CDRecorder {
   accept (med) {

@@ -1,4 +1,4 @@
-import {Tape} from 'Tape'
+import Tape from 'Tape'
 export class TapePlayer {
   accept (med) {
     if (med instanceof Tape) this.tapeInside = med

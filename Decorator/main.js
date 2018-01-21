@@ -1,6 +1,6 @@
-import { Engineer } from 'Engineer'
-import { AdministrativeManager } from 'AdministrativeManager'
-import { ProjectManager } from 'ProjectManager'
+import Engineer from 'Engineer'
+import AdministrativeManager from 'AdministrativeManager'
+import ProjectManager from 'ProjectManager'
 
 let thisWillBeFamous = new Engineer('William Gateway', 'Programming Department')
 console.log('Who are you?')

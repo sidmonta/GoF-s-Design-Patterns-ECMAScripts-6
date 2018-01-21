@@ -1,4 +1,4 @@
-import { ConsoleReader } from 'ConsoleReader'
+import ConsoleReader from 'ConsoleReader'
 
 const consoleReader = new ConsoleReader()
 

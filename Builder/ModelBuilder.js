@@ -1,12 +1,11 @@
-export class ModelBuilder 	{
+export class ModelBuilder {
+  addEntity (name) {}
 
-	addEntity(name)	{}
+  addRelationship (fromEntity, toEntity, relation) {}
 
-	addRelationship(fromEntity, toEntity, relation)	{}
+  addCardMin (entity, relation, value) {}
 
-	addCardMin(entity, relation, value)	{}
+  addCardMax (entity, relation, value) {}
 
-	addCardMax(entity, relation, value)	{}
-
-	getModel()	{}
+  getModel () {}
 }

@@ -1,6 +1,6 @@
-import { ResponsibleWorker } from 'ResponsibleWorker'
+import ResponsibleWorker from 'ResponsibleWorker'
 
-export class AdministrativeManager extends ResponsibleWorker {
+export default class AdministrativeManager extends ResponsibleWorker {
   whoIs () {
     this.sayIamBoss()
     super.whoIs()

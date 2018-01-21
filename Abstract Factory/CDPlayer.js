@@ -1,4 +1,4 @@
-import {CD} from 'CD'
+import CD from 'CD'
 export class CDPlayer {
   accept (med) {
     if (med instanceof CD) this.CDInside = med

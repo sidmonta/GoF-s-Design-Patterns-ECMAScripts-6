@@ -1,5 +1,5 @@
-import ElementHandler from './ElementHandler'
-import Place from './Place'
+import ElementHandler from 'ElementHandler'
+import Place from 'Place'
 
 /**
  * È un Concrete Creator, progettato per la gestione dei Place, estende la

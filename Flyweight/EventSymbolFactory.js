@@ -1,4 +1,4 @@
-import { EventSymbol } from 'EventSymbol'
+import EventSymbol from 'EventSymbol'
 
 const events = new Map()
 export default class EventSymbolFactory {

@@ -1,6 +1,6 @@
-import { ClonableTime } from 'ClonableTime'
+import ClonableTime from 'ClonableTime'
 
-export class TimeImplementationC2 extends ClonableTime {
+export default class TimeImplementationC2 extends ClonableTime {
   setTime (hr, min, sec) {
     this.secs = hr * 3600 + min * 60 + sec
   }

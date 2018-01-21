@@ -1,5 +1,5 @@
-import {RectangleClassAdapter} from 'RectangleClassAdapter'
-import {RectangleObjectAdapter} from 'RectangleObjectAdapter'
+import RectangleClassAdapter from 'RectangleClassAdapter'
+import RectangleObjectAdapter from 'RectangleObjectAdapter'
 
 // ClassAdapterExample
 var block = new RectangleClassAdapter()

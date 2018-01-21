@@ -1,5 +1,5 @@
-import { CompleteMatrix } from 'CompleteMatrix'
-import { SparseMatrix } from 'SparseMatrix'
+import CompleteMatrix from 'CompleteMatrix'
+import SparseMatrix from 'SparseMatrix'
 
 const ROWS = 3
 const COLS = 4

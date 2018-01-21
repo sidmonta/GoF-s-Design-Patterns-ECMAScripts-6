@@ -1,4 +1,4 @@
-import {Tape} from 'Tape'
+import Tape from 'Tape'
 
 export class TapeRecorder {
   accept (med) {

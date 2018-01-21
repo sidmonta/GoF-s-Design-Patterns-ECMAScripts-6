@@ -1,3 +1,3 @@
-export class Employee {
+export default class Employee {
   whoIs () {}
 }

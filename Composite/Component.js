@@ -1,4 +1,4 @@
-import { SinglePart } from 'SinglePart'
+import SinglePart from 'SinglePart'
 
 export class Component {
   constructor (aName) {

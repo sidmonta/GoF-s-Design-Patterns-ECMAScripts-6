@@ -1,6 +1,6 @@
-import { ResponsibleWorker } from 'ResponsibleWorker'
+import ResponsibleWorker from 'ResponsibleWorker'
 
-export class ProjectManager extends ResponsibleWorker {
+export default class ProjectManager extends ResponsibleWorker {
   constructor (empl, proj) {
     super(empl)
     this.project = proj

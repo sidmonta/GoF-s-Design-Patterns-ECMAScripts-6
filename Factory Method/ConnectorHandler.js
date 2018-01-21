@@ -1,5 +1,5 @@
-import ElementHandler from './ElementHandler'
-import Connector from './Connector'
+import ElementHandler from 'ElementHandler'
+import Connector from 'Connector'
 
 /**
  * È un Concrete Creator, progettato per la gestione dei Connector, estende la

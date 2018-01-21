@@ -1,4 +1,4 @@
-import {Rectangle} from 'Rectangle'
+import Rectangle from 'Rectangle'
 
 export class RectangleObjectAdapter {
   constructor () {

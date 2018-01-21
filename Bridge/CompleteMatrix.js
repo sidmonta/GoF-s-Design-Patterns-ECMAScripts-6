@@ -1,4 +1,4 @@
-import { Matrix } from 'Matrix'
+import Matrix from 'Matrix'
 export class CompleteMatrix extends Matrix {
   constructor (rows, cols, collection) {
     super(rows, cols, collection)

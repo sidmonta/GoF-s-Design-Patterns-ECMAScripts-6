@@ -3,7 +3,7 @@
  * label e html sono due proprietà della classe, mentre setPlaceConnected è un
  * metodo.
  */
-export class Place {
+export default class Place {
   set label (l) {
     this.l = l
   }

@@ -1,5 +1,5 @@
-import { Collection } from 'Collection'
-import { MatrixCell } from 'MatrixCell'
+import Collection from 'Collection'
+import MatrixCell from 'MatrixCell'
 
 export class Matrix {
   constructor (rows, cols, collection) {

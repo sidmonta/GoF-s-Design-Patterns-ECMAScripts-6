@@ -1,5 +1,5 @@
-import { SinglePart } from 'SinglePart'
-import { CompoundPart } from 'CompoundPart'
+import SinglePart from 'SinglePart'
+import CompoundPart from 'CompoundPart'
 
 let monitor = new SinglePart('LCD Monitor')
 let keyboard = new SinglePart('Italian keyboard')
