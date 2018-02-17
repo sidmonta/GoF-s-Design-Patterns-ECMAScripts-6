@@ -12,7 +12,7 @@ Per la parte di ECMAScripts 6:
 -	Google :)
 
 
-## Pattern implementati finora
+## Pattern implementati
 *	Abstrac Factory
 *	Adapter
 *	Bridge
@@ -26,3 +26,12 @@ Per la parte di ECMAScripts 6:
 * Proxy
 * Chain of Responsibility
 * Command
+* Interpreter
+* Iterator
+* Mediator
+* Memento
+* Observer
+* State
+* Strategy
+* Template Method
+* Visitor
