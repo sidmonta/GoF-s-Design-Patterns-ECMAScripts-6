@@ -1,4 +1,4 @@
-import { ProxyFileHandler } from 'ProxyFileHandler'
+import ProxyFileHandler from 'ProxyFileHandler'
 
 const fh = new ProxyFileHandler('form#textarea')
 console.log(`
