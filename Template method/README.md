@@ -1,5 +1,5 @@
 # Template method
-#### (GoF pag.325)
+#### (GoF pag. 325)
 
 ## Descrizione
 Spefica la struttura algoritmica di una operazione, differendo l'implementazione di alcuni passi alle sottoclassi. Il Template Method consente di ridefinire certi passi di u algoritmo senza cambiare la struttura di esso
